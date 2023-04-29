@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pubs",
+  "info": {
+    "singularName": "pub",
+    "pluralName": "pubs",
+    "displayName": "pub"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
